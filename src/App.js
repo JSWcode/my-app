@@ -19,8 +19,8 @@ function App() {
       {/* Image slider component */}
       <ImageSlider
         url={"https://picsum.photos/v2/list"}
-        limit={"2"}
-        page={"50"}
+        limit={"10"}
+        page={"1"}
       />
     </div>
   );

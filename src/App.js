@@ -6,7 +6,8 @@ import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
-import QrCodeGenerator from "./qr-code-generator";
+import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
   return (
@@ -34,7 +35,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* Qr code generator */}
-      <QrCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+
+      {/* light and dark theme switch */}
+      <LightDarkMode/>
     </div>
   );
 }

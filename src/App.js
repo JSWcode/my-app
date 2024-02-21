@@ -11,6 +11,7 @@ import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
+import GithubProfileFinder from "./components/github-profile-finder";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       {/* <Accordian/> */}
 
       {/* Random color component */}
-      {/* <RandomColor/> */}
+       {/* <RandomColor/>  */}
 
       {/* star rating component
       <StarRating noOfStars={10} /> */}
@@ -50,7 +51,10 @@ function App() {
       {/* <TabTest /> */}
 
       {/* Custom Modal Component */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+
+      {/* Github profile finder */}
+        <GithubProfileFinder/> 
     </div>
   );
 }

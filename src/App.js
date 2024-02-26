@@ -59,9 +59,10 @@ function App() {
         {/* <GithubProfileFinder/>  */}
 
         {/* Search Autocomplete */}
-         <SearchAutoComplete/> 
+        {/* <SearchAutoComplete/> */}
 
-        
+        {/* Tic Tac Toe */}
+        <TicTacToe/>
 
 
     </div>

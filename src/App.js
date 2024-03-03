@@ -14,6 +14,9 @@ import ModalTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutoComplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/tic-tac-toe";
+import FeatureFlagsGlobalState from "./components/feature-flag/context";
+import FeatureFlags from "./components/feature-flag";
+
 
 function App() {
   return (
@@ -22,7 +25,7 @@ function App() {
       {/* <Accordian/> */}
 
       {/* Random color component */}
-       {/* <RandomColor/>  */}
+      {/* <RandomColor/>  */}
 
       {/* star rating component
       <StarRating noOfStars={10} /> */}
@@ -56,15 +59,18 @@ function App() {
       {/* <ModalTest/> */}
 
       {/* Github profile finder */}
-        {/* <GithubProfileFinder/>  */}
+      {/* <GithubProfileFinder/>  */}
 
-        {/* Search Autocomplete */}
-        {/* <SearchAutoComplete/> */}
+      {/* Search Autocomplete */}
+      {/* <SearchAutoComplete/> */}
 
-        {/* Tic Tac Toe */}
-        <TicTacToe/>
+      {/* Tic Tac Toe */}
+      {/* <TicTacToe/> */}
 
-
+      {/* Feature Flag IMplementation*/}
+      <FeatureFlagsGlobalState>
+        <FeatureFlags />
+      </FeatureFlagsGlobalState>
     </div>
   );
 }
